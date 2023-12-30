@@ -29,7 +29,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Please choose a license for your project:',
-    choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'BSD-3-Clause'],
+    choices: ['MIT', 'Apache-2.0'],
 },
 {
     type: 'input',
@@ -66,10 +66,12 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then(function (data) {
-        writeToFile("README2.md", generateMarkdown(data))
+    inquirer.prompt(questions).then((data) => {
+      const fileName = `${data.title.replace(/\s+/g, '_').toLowerCase()}_README.md`;
+      const dynamicReadMe = generateMarkdown(data);
+      writeToFile(fileName, dynamicReadMe);
     });
-}
+  }
 
 // Function call to initialize app
 init();
