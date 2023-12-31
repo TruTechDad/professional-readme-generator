@@ -1,8 +1,8 @@
-# js
+# Ready Player One
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
 
 ## Description
-js
+A open world role-playing sim
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,19 +14,19 @@ js
 
 
 ## Installation
-js
+Clone the repo and run 'npm install'
 
 ## Usage
-js
+To use the project
 
 ## Contributing
-dj
+Contribution are welcome, please fork the repo and submit push request
 
 ## Tests
-sj
+Run 'npm test'
 
 ## Questions
-For questions about the project, please contact [test](https://github.com/test) via GitHub or [email](mailto:test).
+For questions about the project, please contact [Anorak](https://github.com/Anorak) via GitHub or [email](mailto:JHalliday@email.com).
 
 ## License
 
