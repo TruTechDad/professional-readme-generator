@@ -7,4 +7,9 @@ Elevate your project's first impression with this professional README generator 
 ![ReadMe](./screenshots/generated-readme.png)
 ## Link
 (https://youtu.be/F1J_A2IqR7A)
+
+
 (https://TruTechDad.github.io/professional-readme-generator)
+
+## Link to Walkthrought Video
+(https://youtu.be/F1J_A2IqR7A)
